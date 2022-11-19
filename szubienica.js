@@ -1,4 +1,4 @@
-var haslo = "Bez pracy nie ma kołaczy";
+var haslo = "Fortuna często rozumowi przeczy";
 haslo=haslo.toUpperCase();
 
 var dlugosc = haslo.length;
@@ -132,11 +132,11 @@ function sprawdz(nr)
 	//wygrana
 	if (haslo == haslo1)
 	document.getElementById("alfabet").innerHTML = "Tak jest! Podano prawidłowe hasło: "+haslo+
-	'<br/><br/><span class="reset" onclick="location.reload()">JESZCZER RAZ?</span>'
+	'<br/><br/><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>'
 	
 	//przegrana
 	if (ile_skuch>=9)
-		document.getElementById("alfabet").innerHTML = "Przegrana! prawidłowe hasło: "+haslo+
+		document.getElementById("alfabet").innerHTML = "Przegrana! : "+haslo+
 	'<br/><br/><span class="reset" onclick="location.reload()">JESZCZER RAZ?</span>'
 		
 	
