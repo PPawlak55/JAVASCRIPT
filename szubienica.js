@@ -1,4 +1,4 @@
-var haslo = "Fortuna często rozumowi przeczy";
+var haslo = "Żyrandole ze złota";
 haslo=haslo.toUpperCase();
 
 var dlugosc = haslo.length;
