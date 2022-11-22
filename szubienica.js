@@ -1,4 +1,8 @@
-var haslo = "Żyrandole ze złota";
+var haslo = "haslo";
+
+
+
+
 haslo=haslo.toUpperCase();
 
 var dlugosc = haslo.length;
